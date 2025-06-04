@@ -1,77 +1,149 @@
 
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
 <head>
-	<meta name="google-site-verification" content="iq9nrwIs-VjctS35mC8jK1LPAm8Ii_42upJalXmYdP8" />
+  <meta name="google-site-verification" content="iq9nrwIs-VjctS35mC8jK1LPAm8Ii_42upJalXmYdP8" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index,follow" />
-  <meta name="description" content="Oskar Allerslev – frontendudvikler. Kontakt: oskar@mail.com" />
+  <meta name="description" content="Oskar Allerslev – MSc student at University of Copenhagen, Institute of Mathematics. Contact: oskar.m1660@mail.com" />
   <title>Oskar Allerslev – CV</title>
+
   <style>
-    body {
-      font-family: sans-serif;
-      max-width: 600px;
-      margin: 1rem auto;
-      padding: 1rem;
-      line-height: 1.5;
+    /* Base reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
+
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fafafa;
+    }
+
     header {
       text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.2rem;
+      color: #222;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    section {
       margin-bottom: 2rem;
     }
-    h1 {
-      margin: 0;
-    }
-    section {
-      margin-bottom: 1.5rem;
-    }
+
     section h2 {
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 0.3rem;
-      margin-bottom: 0.5rem;
+      font-size: 1.6rem;
+      margin-bottom: 0.8rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.4rem;
+      color: #222;
     }
+
+    section h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #444;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.6rem;
+      font-size: 1rem;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      background-color: #eef;
+      padding: 0.1rem 0.3rem;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+
     footer {
       text-align: center;
       font-size: 0.9rem;
-      color: #666;
-      margin-top: 2rem;
+      color: #777;
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ddd;
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Oskar Allerslev</h1>
-    <p>Frontend‐udvikler & UX‐interesseret</p>
   </header>
 
   <section>
-    <h2>Kontakt</h2>
+    <h2>Contact</h2>
     <ul>
-      <li>E‐mail: oskar@mail.com</li>
-      <li>Telefon: 12 34 56 78</li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/oskarallerslev" target="_blank">linkedin.com/in/oskarallerslev</a></li>
+      <li>Email: <a href="mailto:oskar.m1660@gmail.com">oskar.m1660@gmail.com</a></li>
+      <li>GitHub: <a href="https://github.com/OskarAllerslev" target="_blank" rel="noopener">github.com/OskarAllerslev</a></li>
     </ul>
   </section>
 
   <section>
-    <h2>Erfaring</h2>
-    <h3>Virksomhed A</h3>
-    <p>Frontend‐udvikler (2022–nu)</p>
-    <ul>
-      <li>Udviklede responsive web‐komponenter i HTML, CSS & JavaScript</li>
-      <li>Implementerede brugergrænseflader med React</li>
-    </ul>
+    <h2>Education</h2>
+    <h3>Bachelor in Insurance Mathematics</h3>
+    <p>University of Copenhagen</p>
   </section>
 
   <section>
-    <h2>Uddannelse</h2>
-    <p>Professionsbachelor i Multimediedesign, XYZ‐Skole (2019–2022)</p>
+    <h2>Mathematical Work</h2>
+    <ul>
+      <li>
+        Solving exercises from Kallenberg’s textbook: 
+        <a
+          href="https://raw.githubusercontent.com/OskarAllerslev/Open-Probability-Problem-/main/foundation_of_modern.pdf"
+          download
+        >
+          “Problems from Foundations of Modern Probability – Kallenberg”
+        </a>
+      </li>
+      <li>
+        R package <code>lifepack</code> on CRAN: 
+        <a
+          href="https://cran.r-project.org/web/packages/lifepack/index.html"
+          target="_blank" rel="noopener"
+        >
+          CRAN: lifepack
+        </a>
+      </li>
+    </ul>
   </section>
 
   <footer>
-    <p>&copy; 2025 Oskar Allerslev</p>
+    &copy; 2025 Oskar Allerslev
   </footer>
 </body>
 </html>
